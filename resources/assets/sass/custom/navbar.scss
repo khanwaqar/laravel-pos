@@ -1,0 +1,30 @@
+.skin-blue .main-header .navbar {
+   background-color: #ffffff;
+   width: calc(100% - 26rem);
+   margin-top: 20px;
+   margin-left: 230px;
+   padding: 5px;
+   @extend .bradius;
+   @extend .bshadow;
+}
+.navbar-custom-menu > .navbar-nav > li .dropdown-menu{
+   background-color: #ffffff;
+   @extend .bradius;
+   @extend .bshadow;
+}
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p{
+   color: #566a7f;
+}
+.navbar-nav > .user-menu > .dropdown-menu > .user-body a{
+   color: #566a7f !important;
+}
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer{
+   background-color: transparent;
+}
+@media (max-width:767px){
+   .skin-blue .main-header .navbar {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 0px;
+   }
+}

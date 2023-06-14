@@ -1,0 +1,25 @@
+.invoice-footer {
+    padding-right: 15px;
+}
+
+.invoice-footer>div {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 970px;
+        width: 100%;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1170px;
+    }
+}
+@media (min-width: 1400px){
+    .container {
+        max-width: 1370px;
+    }
+}

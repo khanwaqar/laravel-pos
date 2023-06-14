@@ -1,0 +1,101 @@
+.bg-electron-blue {
+    background-color: #686de0;
+
+    button {
+        background-color: white;
+        color: black;
+        width: 150px;
+    }
+
+    .login-btn {
+        color: black;
+        background-color: white;
+        height: 40px;
+    }
+
+    h3,
+    h5 {
+        color: whitesmoke;
+    }
+
+    // img{
+    //     width: 30px;
+    // }
+}
+
+
+.header-links {}
+
+.header-section-img {
+    width: 70%;
+}
+
+.about-section-img {
+    width: 100%;
+}
+
+.about-para {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.feature-section-img {
+    width: 100%;
+    height: auto;
+}
+
+.feature-list {
+    list-style-type: circle;
+    color: #686de0;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.feature-list li {
+    margin: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to left, #7d5fff, whitesmoke);
+    // height: 300px;
+    //background-color: lightblue;
+}
+
+.gradient-section-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.gradient-section-bg-img {
+    //background: url("../../public//img/pos/Image.png");
+    background-image: url("/images/pos/top_bg.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.trial-section {
+    color: white;
+
+    button {
+        color: #686de0;
+    }
+}
+
+.single-step {
+    img {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .header-section-img {}
+
+
+}

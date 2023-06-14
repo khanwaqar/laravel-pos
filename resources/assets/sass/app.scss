@@ -1,0 +1,26 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// plugins style
+
+// Bootstrap
+// @import "./bootstrap/functions";
+// @import "./bootstrap/variables";
+// @import "./bootstrap/mixins";
+// @import "./bootstrap/utilities/spacing";
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+@import "./adminLte/AdminLTE.scss";
+@import "./adminLte/skin-blue.scss";
+
+// Variables
+@import "variables";
+@import "./custom/common.scss";
+@import "./custom/main.scss";
+@import "./custom/print.scss";
+@import "./custom/invoice.scss";
+@import "./custom/pos.scss";
+@import "./custom/switch.scss";
+@import "./custom/sidebar.scss";
+@import "./custom/navbar.scss";
